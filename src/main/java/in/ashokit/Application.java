@@ -26,6 +26,7 @@ public class Application {
 		ProductRepository productRepository = context.getBean(ProductRepository.class);
 		
 		  Product p = new Product();
+		   String s ="Hii";
 		  p.setProductName("Keyboard");
 		  p.setProductPrice(100.20);
 		  productRepository.save(p);
