@@ -9,6 +9,7 @@ import jakarta.persistence.Id;
 public class Product {
        
 	@Id
+	@Column
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	 private Integer productId;
 	 private String productName;
