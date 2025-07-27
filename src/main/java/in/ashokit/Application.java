@@ -27,6 +27,9 @@ public class Application {
 		
 		  Product p = new Product();
                   int i= 10;
+
+		   String s ="Hii";
+
 		  p.setProductName("Keyboard");
 		  p.setProductPrice(100.20);
 		  productRepository.save(p);
